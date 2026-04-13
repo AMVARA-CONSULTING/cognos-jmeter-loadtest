@@ -1,5 +1,7 @@
 # CUG Cognos load testing
 
+![IBM Cognos Load Testing Event Visual](screenshots/IBM%20Cognos%20Load%20Testing%20Event%20Visual.png)
+
 This repository holds **Apache JMeter** load and performance tests against **IBM Cognos Analytics** for the CUG environment. The plans exercise Cognos web flows (for example `https://cognos.cug.app/ibmcognos/bi/`), including session handling such as XSRF tokens and typical HTTP headers.
 
 Use it to:
