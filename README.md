@@ -4,6 +4,8 @@
 
 **Video:** [IBM Cognos load testing walkthrough](https://youtu.be/9LmjKGcOwu4)
 
+*Quality:* The walkthrough on YouTube is only available at **720p**. If you would like it re-recorded at higher quality, say so on [issue #1](https://github.com/AMVARA-CONSULTING/cognos-jmeter-loadtest/issues/1).
+
 This repository holds **Apache JMeter** load and performance tests against **IBM Cognos Analytics** for the CUG environment. The plans exercise Cognos web flows (for example `https://cognos.cug.app/ibmcognos/bi/`), including session handling such as XSRF tokens and typical HTTP headers.
 
 Use it to:
