@@ -1,0 +1,10 @@
+# Build the pinned JMeter image (Eclipse Temurin 21 + Apache JMeter 5.6.3).
+# Usage: docker compose build
+# Run tests via test_plans/jmeter-docker.sh and JMETER_CMD (see DOCKER.md).
+
+services:
+  jmeter:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: jmeter-tests-jmeter:5.6.3

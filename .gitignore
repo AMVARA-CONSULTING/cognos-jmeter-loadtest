@@ -1,0 +1,4 @@
+.DS_Store
+
+# Local screen recordings / exports (not stored in git)
+video/

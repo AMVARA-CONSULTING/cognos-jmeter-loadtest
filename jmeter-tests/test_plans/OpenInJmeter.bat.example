@@ -1,0 +1,7 @@
+
+E:\Install\JMeter\apache-jmeter-5.6.3\bin\jmeter.bat -t E:\\Brief-Test-Temp\\GEMUE.jmx ^
+  -Jusername=DEMO\dummyUsername ^
+  -Jpassword=dummyPassword ^
+  -Jwebdriver_remote=0 ^
+  -Jwebdriver_binary=E:\Install\webdriver\chromedriver-win64\chromedriver.exe ^
+  -Jwebdriver_browser_binary=E:\Install\webdriver\chrome-win64\chrome.exe

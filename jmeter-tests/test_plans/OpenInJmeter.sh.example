@@ -1,0 +1,52 @@
+#!/bin/bash
+
+usage() {
+        echo "${0} [options]"
+        hint
+        echo "
+OPTIONS
+
+  -h, --help
+    print usage information and exit
+"
+        exit 255
+}
+
+hint() {
+    echo "
+If the jMeter Script is located not where the script references
+please amend the reference.
+Consider creating a soft link if the jmeter directory contains the version.
+Example:
+ln -s ~/apache-jmeter-5.6.3 ~/apache-jmeter-latest"
+}
+
+main() {
+    hint
+    info "Running jMeter Script"
+
+    ~/apache-jmeter-latest/bin/jmeter -t GEMUE.jmx \
+        -Jusername=dummy@tbdir.net \
+        -Jpwd=DummyPasswordWithExcaped\$Special  \
+        -Jotp_key=DUMMYYRTYBDUMMY
+}
+
+while [[ $# -gt 0 ]]
+do
+    key="${1}"
+    case $key in
+        -h|--help)
+            usage
+            exit
+            shift
+            ;;
+        *)
+            echo "Unknown option ${key} ... please check the options below..."
+            usage
+            exit
+            shift
+            ;;
+    esac
+done
+
+main

@@ -1,0 +1,340 @@
+2026-04-12 17:31:50,574 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2026-04-12 17:31:50,587 INFO o.a.j.JMeter: Loading user properties from: /opt/homebrew/Cellar/jmeter/5.6.3/libexec/bin/user.properties
+2026-04-12 17:31:50,587 INFO o.a.j.JMeter: Loading system properties from: /opt/homebrew/Cellar/jmeter/5.6.3/libexec/bin/system.properties
+2026-04-12 17:31:50,587 INFO o.a.j.JMeter: Setting JMeter property: threads=20
+2026-04-12 17:31:50,587 INFO o.a.j.JMeter: Setting JMeter property: loops=100
+2026-04-12 17:31:50,587 INFO o.a.j.JMeter: Setting JMeter property: pwd=${jmeterpwd}
+2026-04-12 17:31:50,587 INFO o.a.j.JMeter: Setting JMeter property: rup=120
+2026-04-12 17:31:50,590 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2026-04-12 17:31:50,590 INFO o.a.j.JMeter: Version 5.6.3
+2026-04-12 17:31:50,590 INFO o.a.j.JMeter: java.version=21.0.7
+2026-04-12 17:31:50,590 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2026-04-12 17:31:50,590 INFO o.a.j.JMeter: os.name=Mac OS X
+2026-04-12 17:31:50,590 INFO o.a.j.JMeter: os.arch=aarch64
+2026-04-12 17:31:50,590 INFO o.a.j.JMeter: os.version=26.3.1
+2026-04-12 17:31:50,590 INFO o.a.j.JMeter: file.encoding=UTF-8
+2026-04-12 17:31:50,590 INFO o.a.j.JMeter: java.awt.headless=true
+2026-04-12 17:31:50,590 INFO o.a.j.JMeter: Max memory     =1073741824
+2026-04-12 17:31:50,590 INFO o.a.j.JMeter: Available Processors =16
+2026-04-12 17:31:50,595 INFO o.a.j.JMeter: Default Locale=English (EN)
+2026-04-12 17:31:50,595 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2026-04-12 17:31:50,595 INFO o.a.j.JMeter: JMeterHome=/opt/homebrew/Cellar/jmeter/5.6.3/libexec
+2026-04-12 17:31:50,595 INFO o.a.j.JMeter: user.dir  =/Users/raro42/Library/CloudStorage/ProtonDrive-ralf.roeber@amvara.de-folder/010_AMVARA_SHARED/60-CUG/cug-loadtest/jmeter-tests
+2026-04-12 17:31:50,595 INFO o.a.j.JMeter: PWD       =/Users/raro42/Library/CloudStorage/ProtonDrive-ralf.roeber@amvara.de-folder/010_AMVARA_SHARED/60-CUG/cug-loadtest/jmeter-tests
+2026-04-12 17:31:50,598 INFO o.a.j.JMeter: IP: 127.0.0.1 Name: tunix.local FullName: localhost
+2026-04-12 17:31:50,608 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'/Users/raro42/proton_drive/010_AMVARA_SHARED/60-CUG/cug-loadtest/jmeter-tests/logs_dashboard/001-cug_20260412-173150_Threads_20_Loops_100_RampUpTime_120'
+2026-04-12 17:31:50,609 INFO o.a.j.s.FileServer: Default base='/Users/raro42/Library/CloudStorage/ProtonDrive-ralf.roeber@amvara.de-folder/010_AMVARA_SHARED/60-CUG/cug-loadtest/jmeter-tests'
+2026-04-12 17:31:50,610 INFO o.a.j.s.FileServer: Set new base='/Users/raro42/proton_drive/010_AMVARA_SHARED/60-CUG/cug-loadtest/jmeter-tests/test_plans'
+2026-04-12 17:31:50,685 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2026-04-12 17:31:50,705 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2026-04-12 17:31:50,706 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2026-04-12 17:31:50,708 INFO o.a.j.s.SaveService: Loading file: /Users/raro42/proton_drive/010_AMVARA_SHARED/60-CUG/cug-loadtest/jmeter-tests/test_plans/001-cug.jmx
+2026-04-12 17:31:50,725 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2026-04-12 17:31:50,755 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-04-12 17:31:50,755 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-04-12 17:31:50,755 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-04-12 17:31:50,755 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-04-12 17:31:50,755 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2026-04-12 17:31:50,755 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2026-04-12 17:31:50,869 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2026-04-12 17:31:50,869 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file /opt/homebrew/Cellar/jmeter/5.6.3/libexec/bin/proxyserver.jks
+2026-04-12 17:31:50,908 INFO o.a.j.JMeter: Creating summariser <summary>
+2026-04-12 17:31:50,910 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2026-04-12 17:31:50,910 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: /Users/raro42/proton_drive/010_AMVARA_SHARED/60-CUG/cug-loadtest/jmeter-tests/logs/001-cug_20260412-173150_Threads_20_Loops_100.log
+2026-04-12 17:31:50,910 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: /opt/homebrew/Cellar/jmeter/5.6.3/libexec/bin/reportgenerator.properties
+2026-04-12 17:31:50,910 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2026-04-12 17:31:50,912 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2026-04-12 17:31:50,913 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2026-04-12 17:31:50,913 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2026-04-12 17:31:50,913 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2026-04-12 17:31:50,913 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2026-04-12 17:31:50,914 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2026-04-12 17:31:50,914 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2026-04-12 17:31:50,914 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2026-04-12 17:31:50,914 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2026-04-12 17:31:50,915 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2026-04-12 17:31:50,915 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-04-12 17:31:50,916 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2026-04-12 17:31:50,916 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2026-04-12 17:31:50,916 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2026-04-12 17:31:50,916 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2026-04-12 17:31:50,916 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-04-12 17:31:50,916 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-04-12 17:31:50,916 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-04-12 17:31:50,916 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-04-12 17:31:50,916 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2026-04-12 17:31:50,916 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2026-04-12 17:31:50,916 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2026-04-12 17:31:50,917 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2026-04-12 17:31:50,917 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2026-04-12 17:31:50,917 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2026-04-12 17:31:50,922 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2026-04-12 17:31:50,923 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-04-12 17:31:50,923 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-04-12 17:31:50,925 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2026-04-12 17:31:50,925 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2026-04-12 17:31:50,945 INFO o.a.j.r.ClassFinder: Will scan jar /opt/homebrew/Cellar/jmeter/5.6.3/libexec/lib/ext/jmeter-plugins-manager-1.9.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2026-04-12 17:31:50,986 INFO o.a.j.r.ClassFinder: Will scan jar /opt/homebrew/Cellar/jmeter/5.6.3/libexec/lib/ext/jmeter-plugins-webdriver-4.13.0.2.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2026-04-12 17:31:51,098 INFO o.a.j.JMeter: Running test (1776007911098)
+2026-04-12 17:31:51,109 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : CUG Lasttest
+2026-04-12 17:31:51,109 INFO o.a.j.e.StandardJMeterEngine: Starting 20 threads for group CUG Lasttest.
+2026-04-12 17:31:51,109 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-04-12 17:31:51,109 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=20 ramp-up=120 delayedStart=false
+2026-04-12 17:31:51,115 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2026-04-12 17:31:51,115 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2026-04-12 17:31:51,115 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2026-04-12 17:31:51,115 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2026-04-12 17:31:51,119 INFO o.a.j.t.JMeterThread: Thread started: CUG Lasttest 1-1
+2026-04-12 17:31:51,127 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = tunix.local
+2026-04-12 17:31:51,129 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2026-04-12 17:31:51,129 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2026-04-12 17:31:51,130 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2026-04-12 17:31:51,158 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2026-04-12 17:31:51,161 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2026-04-12 17:31:51,161 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2026-04-12 17:31:51,238 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2026-04-12 17:31:51,240 INFO o.a.j.u.SSLManager: KeyStore created OK
+2026-04-12 17:31:51,240 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2026-04-12 17:31:52,037 INFO o.a.j.e.J.Logging: LOGIN------------------------------------------------------
+2026-04-12 17:31:52,037 INFO o.a.j.e.J.Logging: Thread #1
+2026-04-12 17:31:52,037 INFO o.a.j.e.J.Logging: -----------------------------------------------------------
+2026-04-12 17:31:52,163 INFO o.a.j.e.J.Logging: LOGIN------------------------------------------------------
+2026-04-12 17:31:52,163 INFO o.a.j.e.J.Logging: Thread #1
+2026-04-12 17:31:52,163 INFO o.a.j.e.J.Logging: -----------------------------------------------------------
+2026-04-12 17:31:57,120 INFO o.a.j.t.JMeterThread: Thread started: CUG Lasttest 1-2
+2026-04-12 17:31:57,361 INFO o.a.j.e.J.Logging: LOGIN------------------------------------------------------
+2026-04-12 17:31:57,361 INFO o.a.j.e.J.Logging: Thread #2
+2026-04-12 17:31:57,361 INFO o.a.j.e.J.Logging: -----------------------------------------------------------
+2026-04-12 17:31:57,477 INFO o.a.j.e.J.Logging: LOGIN------------------------------------------------------
+2026-04-12 17:31:57,477 INFO o.a.j.e.J.Logging: Thread #2
+2026-04-12 17:31:57,477 INFO o.a.j.e.J.Logging: -----------------------------------------------------------
+2026-04-12 17:32:00,012 INFO o.a.j.r.Summariser: summary +    119 in 00:00:09 =   13.4/s Avg:    94 Min:    54 Max:  1255 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2026-04-12 17:32:03,119 INFO o.a.j.t.JMeterThread: Thread started: CUG Lasttest 1-3
+2026-04-12 17:32:03,588 INFO o.a.j.e.J.Logging: LOGIN------------------------------------------------------
+2026-04-12 17:32:03,588 INFO o.a.j.e.J.Logging: Thread #3
+2026-04-12 17:32:03,588 INFO o.a.j.e.J.Logging: -----------------------------------------------------------
+2026-04-12 17:32:03,763 INFO o.a.j.e.J.Logging: LOGIN------------------------------------------------------
+2026-04-12 17:32:03,763 INFO o.a.j.e.J.Logging: Thread #3
+2026-04-12 17:32:03,764 INFO o.a.j.e.J.Logging: -----------------------------------------------------------
+2026-04-12 17:32:09,117 INFO o.a.j.t.JMeterThread: Thread started: CUG Lasttest 1-4
+2026-04-12 17:32:09,384 INFO o.a.j.e.J.Logging: LOGIN------------------------------------------------------
+2026-04-12 17:32:09,385 INFO o.a.j.e.J.Logging: Thread #4
+2026-04-12 17:32:09,385 INFO o.a.j.e.J.Logging: -----------------------------------------------------------
+2026-04-12 17:32:09,520 INFO o.a.j.e.J.Logging: LOGIN------------------------------------------------------
+2026-04-12 17:32:09,520 INFO o.a.j.e.J.Logging: Thread #4
+2026-04-12 17:32:09,520 INFO o.a.j.e.J.Logging: -----------------------------------------------------------
+2026-04-12 17:32:15,116 INFO o.a.j.t.JMeterThread: Thread started: CUG Lasttest 1-5
+2026-04-12 17:32:15,509 INFO o.a.j.e.J.Logging: LOGIN------------------------------------------------------
+2026-04-12 17:32:15,509 INFO o.a.j.e.J.Logging: Thread #5
+2026-04-12 17:32:15,509 INFO o.a.j.e.J.Logging: -----------------------------------------------------------
+2026-04-12 17:32:15,662 INFO o.a.j.e.J.Logging: LOGIN------------------------------------------------------
+2026-04-12 17:32:15,662 INFO o.a.j.e.J.Logging: Thread #5
+2026-04-12 17:32:15,662 INFO o.a.j.e.J.Logging: -----------------------------------------------------------
+2026-04-12 17:32:21,119 INFO o.a.j.t.JMeterThread: Thread started: CUG Lasttest 1-6
+2026-04-12 17:32:21,360 INFO o.a.j.e.J.Logging: LOGIN------------------------------------------------------
+2026-04-12 17:32:21,360 INFO o.a.j.e.J.Logging: Thread #6
+2026-04-12 17:32:21,360 INFO o.a.j.e.J.Logging: -----------------------------------------------------------
+2026-04-12 17:32:21,485 INFO o.a.j.e.J.Logging: LOGIN------------------------------------------------------
+2026-04-12 17:32:21,485 INFO o.a.j.e.J.Logging: Thread #6
+2026-04-12 17:32:21,485 INFO o.a.j.e.J.Logging: -----------------------------------------------------------
+2026-04-12 17:32:27,118 INFO o.a.j.t.JMeterThread: Thread started: CUG Lasttest 1-7
+2026-04-12 17:32:27,447 INFO o.a.j.e.J.Logging: LOGIN------------------------------------------------------
+2026-04-12 17:32:27,447 INFO o.a.j.e.J.Logging: Thread #7
+2026-04-12 17:32:27,447 INFO o.a.j.e.J.Logging: -----------------------------------------------------------
+2026-04-12 17:32:27,641 INFO o.a.j.e.J.Logging: LOGIN------------------------------------------------------
+2026-04-12 17:32:27,641 INFO o.a.j.e.J.Logging: Thread #7
+2026-04-12 17:32:27,641 INFO o.a.j.e.J.Logging: -----------------------------------------------------------
+2026-04-12 17:32:30,022 INFO o.a.j.r.Summariser: summary +   1456 in 00:00:30 =   48.5/s Avg:    91 Min:    53 Max:  2244 Err:     0 (0.00%) Active: 7 Started: 7 Finished: 0
+2026-04-12 17:32:30,022 INFO o.a.j.r.Summariser: summary =   1575 in 00:00:39 =   40.5/s Avg:    91 Min:    53 Max:  2244 Err:     0 (0.00%)
+2026-04-12 17:32:33,117 INFO o.a.j.t.JMeterThread: Thread started: CUG Lasttest 1-8
+2026-04-12 17:32:33,379 INFO o.a.j.e.J.Logging: LOGIN------------------------------------------------------
+2026-04-12 17:32:33,379 INFO o.a.j.e.J.Logging: Thread #8
+2026-04-12 17:32:33,379 INFO o.a.j.e.J.Logging: -----------------------------------------------------------
+2026-04-12 17:32:33,493 INFO o.a.j.e.J.Logging: LOGIN------------------------------------------------------
+2026-04-12 17:32:33,493 INFO o.a.j.e.J.Logging: Thread #8
+2026-04-12 17:32:33,493 INFO o.a.j.e.J.Logging: -----------------------------------------------------------
+2026-04-12 17:32:39,114 INFO o.a.j.t.JMeterThread: Thread started: CUG Lasttest 1-9
+2026-04-12 17:32:39,436 INFO o.a.j.e.J.Logging: LOGIN------------------------------------------------------
+2026-04-12 17:32:39,436 INFO o.a.j.e.J.Logging: Thread #9
+2026-04-12 17:32:39,436 INFO o.a.j.e.J.Logging: -----------------------------------------------------------
+2026-04-12 17:32:39,553 INFO o.a.j.e.J.Logging: LOGIN------------------------------------------------------
+2026-04-12 17:32:39,553 INFO o.a.j.e.J.Logging: Thread #9
+2026-04-12 17:32:39,554 INFO o.a.j.e.J.Logging: -----------------------------------------------------------
+2026-04-12 17:32:45,113 INFO o.a.j.t.JMeterThread: Thread started: CUG Lasttest 1-10
+2026-04-12 17:32:45,360 INFO o.a.j.e.J.Logging: LOGIN------------------------------------------------------
+2026-04-12 17:32:45,360 INFO o.a.j.e.J.Logging: Thread #10
+2026-04-12 17:32:45,360 INFO o.a.j.e.J.Logging: -----------------------------------------------------------
+2026-04-12 17:32:45,486 INFO o.a.j.e.J.Logging: LOGIN------------------------------------------------------
+2026-04-12 17:32:45,487 INFO o.a.j.e.J.Logging: Thread #10
+2026-04-12 17:32:45,487 INFO o.a.j.e.J.Logging: -----------------------------------------------------------
+2026-04-12 17:32:51,113 INFO o.a.j.t.JMeterThread: Thread started: CUG Lasttest 1-11
+2026-04-12 17:32:51,463 INFO o.a.j.e.J.Logging: LOGIN------------------------------------------------------
+2026-04-12 17:32:51,464 INFO o.a.j.e.J.Logging: Thread #11
+2026-04-12 17:32:51,464 INFO o.a.j.e.J.Logging: -----------------------------------------------------------
+2026-04-12 17:32:51,579 INFO o.a.j.e.J.Logging: LOGIN------------------------------------------------------
+2026-04-12 17:32:51,579 INFO o.a.j.e.J.Logging: Thread #11
+2026-04-12 17:32:51,579 INFO o.a.j.e.J.Logging: -----------------------------------------------------------
+2026-04-12 17:32:57,113 INFO o.a.j.t.JMeterThread: Thread started: CUG Lasttest 1-12
+2026-04-12 17:32:57,351 INFO o.a.j.e.J.Logging: LOGIN------------------------------------------------------
+2026-04-12 17:32:57,351 INFO o.a.j.e.J.Logging: Thread #12
+2026-04-12 17:32:57,351 INFO o.a.j.e.J.Logging: -----------------------------------------------------------
+2026-04-12 17:32:57,486 INFO o.a.j.e.J.Logging: LOGIN------------------------------------------------------
+2026-04-12 17:32:57,487 INFO o.a.j.e.J.Logging: Thread #12
+2026-04-12 17:32:57,487 INFO o.a.j.e.J.Logging: -----------------------------------------------------------
+2026-04-12 17:33:00,005 INFO o.a.j.r.Summariser: summary +   3541 in 00:00:30 =  118.1/s Avg:    79 Min:    52 Max:   847 Err:     0 (0.00%) Active: 12 Started: 12 Finished: 0
+2026-04-12 17:33:00,006 INFO o.a.j.r.Summariser: summary =   5116 in 00:01:09 =   74.2/s Avg:    83 Min:    52 Max:  2244 Err:     0 (0.00%)
+2026-04-12 17:33:03,116 INFO o.a.j.t.JMeterThread: Thread started: CUG Lasttest 1-13
+2026-04-12 17:33:03,339 INFO o.a.j.e.J.Logging: LOGIN------------------------------------------------------
+2026-04-12 17:33:03,339 INFO o.a.j.e.J.Logging: Thread #13
+2026-04-12 17:33:03,339 INFO o.a.j.e.J.Logging: -----------------------------------------------------------
+2026-04-12 17:33:03,525 INFO o.a.j.e.J.Logging: LOGIN------------------------------------------------------
+2026-04-12 17:33:03,526 INFO o.a.j.e.J.Logging: Thread #13
+2026-04-12 17:33:03,526 INFO o.a.j.e.J.Logging: -----------------------------------------------------------
+2026-04-12 17:33:09,112 INFO o.a.j.t.JMeterThread: Thread started: CUG Lasttest 1-14
+2026-04-12 17:33:09,343 INFO o.a.j.e.J.Logging: LOGIN------------------------------------------------------
+2026-04-12 17:33:09,343 INFO o.a.j.e.J.Logging: Thread #14
+2026-04-12 17:33:09,344 INFO o.a.j.e.J.Logging: -----------------------------------------------------------
+2026-04-12 17:33:09,573 INFO o.a.j.e.J.Logging: LOGIN------------------------------------------------------
+2026-04-12 17:33:09,573 INFO o.a.j.e.J.Logging: Thread #14
+2026-04-12 17:33:09,573 INFO o.a.j.e.J.Logging: -----------------------------------------------------------
+2026-04-12 17:33:15,115 INFO o.a.j.t.JMeterThread: Thread started: CUG Lasttest 1-15
+2026-04-12 17:33:15,504 INFO o.a.j.e.J.Logging: LOGIN------------------------------------------------------
+2026-04-12 17:33:15,505 INFO o.a.j.e.J.Logging: Thread #15
+2026-04-12 17:33:15,505 INFO o.a.j.e.J.Logging: -----------------------------------------------------------
+2026-04-12 17:33:15,633 INFO o.a.j.e.J.Logging: LOGIN------------------------------------------------------
+2026-04-12 17:33:15,633 INFO o.a.j.e.J.Logging: Thread #15
+2026-04-12 17:33:15,633 INFO o.a.j.e.J.Logging: -----------------------------------------------------------
+2026-04-12 17:33:21,114 INFO o.a.j.t.JMeterThread: Thread started: CUG Lasttest 1-16
+2026-04-12 17:33:21,377 INFO o.a.j.e.J.Logging: LOGIN------------------------------------------------------
+2026-04-12 17:33:21,377 INFO o.a.j.e.J.Logging: Thread #16
+2026-04-12 17:33:21,377 INFO o.a.j.e.J.Logging: -----------------------------------------------------------
+2026-04-12 17:33:21,491 INFO o.a.j.e.J.Logging: LOGIN------------------------------------------------------
+2026-04-12 17:33:21,491 INFO o.a.j.e.J.Logging: Thread #16
+2026-04-12 17:33:21,491 INFO o.a.j.e.J.Logging: -----------------------------------------------------------
+2026-04-12 17:33:27,114 INFO o.a.j.t.JMeterThread: Thread started: CUG Lasttest 1-17
+2026-04-12 17:33:27,376 INFO o.a.j.e.J.Logging: LOGIN------------------------------------------------------
+2026-04-12 17:33:27,376 INFO o.a.j.e.J.Logging: Thread #17
+2026-04-12 17:33:27,376 INFO o.a.j.e.J.Logging: -----------------------------------------------------------
+2026-04-12 17:33:27,555 INFO o.a.j.e.J.Logging: LOGIN------------------------------------------------------
+2026-04-12 17:33:27,555 INFO o.a.j.e.J.Logging: Thread #17
+2026-04-12 17:33:27,557 INFO o.a.j.e.J.Logging: -----------------------------------------------------------
+2026-04-12 17:33:30,031 INFO o.a.j.r.Summariser: summary +   4263 in 00:00:30 =  142.0/s Avg:   101 Min:    52 Max:  4140 Err:     0 (0.00%) Active: 17 Started: 17 Finished: 0
+2026-04-12 17:33:30,031 INFO o.a.j.r.Summariser: summary =   9379 in 00:01:39 =   94.8/s Avg:    91 Min:    52 Max:  4140 Err:     0 (0.00%)
+2026-04-12 17:33:33,114 INFO o.a.j.t.JMeterThread: Thread started: CUG Lasttest 1-18
+2026-04-12 17:33:33,372 INFO o.a.j.e.J.Logging: LOGIN------------------------------------------------------
+2026-04-12 17:33:33,373 INFO o.a.j.e.J.Logging: Thread #18
+2026-04-12 17:33:33,373 INFO o.a.j.e.J.Logging: -----------------------------------------------------------
+2026-04-12 17:33:33,485 INFO o.a.j.e.J.Logging: LOGIN------------------------------------------------------
+2026-04-12 17:33:33,485 INFO o.a.j.e.J.Logging: Thread #18
+2026-04-12 17:33:33,485 INFO o.a.j.e.J.Logging: -----------------------------------------------------------
+2026-04-12 17:33:39,117 INFO o.a.j.t.JMeterThread: Thread started: CUG Lasttest 1-19
+2026-04-12 17:33:39,404 INFO o.a.j.e.J.Logging: LOGIN------------------------------------------------------
+2026-04-12 17:33:39,404 INFO o.a.j.e.J.Logging: Thread #19
+2026-04-12 17:33:39,404 INFO o.a.j.e.J.Logging: -----------------------------------------------------------
+2026-04-12 17:33:39,604 INFO o.a.j.e.J.Logging: LOGIN------------------------------------------------------
+2026-04-12 17:33:39,605 INFO o.a.j.e.J.Logging: Thread #19
+2026-04-12 17:33:39,606 INFO o.a.j.e.J.Logging: -----------------------------------------------------------
+2026-04-12 17:33:45,114 INFO o.a.j.t.JMeterThread: Thread started: CUG Lasttest 1-20
+2026-04-12 17:33:45,540 INFO o.a.j.e.J.Logging: LOGIN------------------------------------------------------
+2026-04-12 17:33:45,540 INFO o.a.j.e.J.Logging: Thread #20
+2026-04-12 17:33:45,540 INFO o.a.j.e.J.Logging: -----------------------------------------------------------
+2026-04-12 17:33:45,821 INFO o.a.j.e.J.Logging: LOGIN------------------------------------------------------
+2026-04-12 17:33:45,822 INFO o.a.j.e.J.Logging: Thread #20
+2026-04-12 17:33:45,822 INFO o.a.j.e.J.Logging: -----------------------------------------------------------
+2026-04-12 17:34:00,005 INFO o.a.j.r.Summariser: summary +   7116 in 00:00:30 =  237.4/s Avg:    80 Min:    51 Max:   779 Err:     0 (0.00%) Active: 20 Started: 20 Finished: 0
+2026-04-12 17:34:00,006 INFO o.a.j.r.Summariser: summary =  16495 in 00:02:09 =  128.0/s Avg:    86 Min:    51 Max:  4140 Err:     0 (0.00%)
+2026-04-12 17:34:30,010 INFO o.a.j.r.Summariser: summary +   5644 in 00:00:30 =  188.1/s Avg:   106 Min:    51 Max:  5458 Err:     0 (0.00%) Active: 20 Started: 20 Finished: 0
+2026-04-12 17:34:30,011 INFO o.a.j.r.Summariser: summary =  22139 in 00:02:39 =  139.3/s Avg:    91 Min:    51 Max:  5458 Err:     0 (0.00%)
+2026-04-12 17:35:00,000 INFO o.a.j.r.Summariser: summary +   7755 in 00:00:30 =  258.6/s Avg:    77 Min:    52 Max:   660 Err:     0 (0.00%) Active: 20 Started: 20 Finished: 0
+2026-04-12 17:35:00,000 INFO o.a.j.r.Summariser: summary =  29894 in 00:03:09 =  158.3/s Avg:    87 Min:    51 Max:  5458 Err:     0 (0.00%)
+2026-04-12 17:35:13,372 INFO o.a.j.t.JMeterThread: Thread is done: CUG Lasttest 1-1
+2026-04-12 17:35:13,373 INFO o.a.j.t.JMeterThread: Thread finished: CUG Lasttest 1-1
+2026-04-12 17:35:20,721 INFO o.a.j.t.JMeterThread: Thread is done: CUG Lasttest 1-2
+2026-04-12 17:35:20,721 INFO o.a.j.t.JMeterThread: Thread finished: CUG Lasttest 1-2
+2026-04-12 17:35:29,180 INFO o.a.j.t.JMeterThread: Thread is done: CUG Lasttest 1-3
+2026-04-12 17:35:29,181 INFO o.a.j.t.JMeterThread: Thread finished: CUG Lasttest 1-3
+2026-04-12 17:35:30,003 INFO o.a.j.r.Summariser: summary +   6349 in 00:00:30 =  211.6/s Avg:    90 Min:    51 Max:  2204 Err:     0 (0.00%) Active: 17 Started: 20 Finished: 3
+2026-04-12 17:35:30,004 INFO o.a.j.r.Summariser: summary =  36243 in 00:03:39 =  165.6/s Avg:    88 Min:    51 Max:  5458 Err:     0 (0.00%)
+2026-04-12 17:35:30,657 INFO o.a.j.t.JMeterThread: Thread is done: CUG Lasttest 1-4
+2026-04-12 17:35:30,657 INFO o.a.j.t.JMeterThread: Thread finished: CUG Lasttest 1-4
+2026-04-12 17:35:38,212 INFO o.a.j.t.JMeterThread: Thread is done: CUG Lasttest 1-6
+2026-04-12 17:35:38,212 INFO o.a.j.t.JMeterThread: Thread finished: CUG Lasttest 1-6
+2026-04-12 17:35:38,329 INFO o.a.j.t.JMeterThread: Thread is done: CUG Lasttest 1-5
+2026-04-12 17:35:38,329 INFO o.a.j.t.JMeterThread: Thread finished: CUG Lasttest 1-5
+2026-04-12 17:35:49,067 INFO o.a.j.t.JMeterThread: Thread is done: CUG Lasttest 1-7
+2026-04-12 17:35:49,067 INFO o.a.j.t.JMeterThread: Thread finished: CUG Lasttest 1-7
+2026-04-12 17:35:50,018 INFO o.a.j.t.JMeterThread: Thread is done: CUG Lasttest 1-8
+2026-04-12 17:35:50,018 INFO o.a.j.t.JMeterThread: Thread finished: CUG Lasttest 1-8
+2026-04-12 17:36:00,004 INFO o.a.j.r.Summariser: summary +   5358 in 00:00:30 =  178.6/s Avg:    77 Min:    51 Max:   454 Err:     0 (0.00%) Active: 12 Started: 20 Finished: 8
+2026-04-12 17:36:00,004 INFO o.a.j.r.Summariser: summary =  41601 in 00:04:09 =  167.1/s Avg:    86 Min:    51 Max:  5458 Err:     0 (0.00%)
+2026-04-12 17:36:00,027 INFO o.a.j.t.JMeterThread: Thread is done: CUG Lasttest 1-9
+2026-04-12 17:36:00,027 INFO o.a.j.t.JMeterThread: Thread finished: CUG Lasttest 1-9
+2026-04-12 17:36:05,854 INFO o.a.j.t.JMeterThread: Thread is done: CUG Lasttest 1-10
+2026-04-12 17:36:05,854 INFO o.a.j.t.JMeterThread: Thread finished: CUG Lasttest 1-10
+2026-04-12 17:36:09,294 INFO o.a.j.t.JMeterThread: Thread is done: CUG Lasttest 1-11
+2026-04-12 17:36:09,294 INFO o.a.j.t.JMeterThread: Thread finished: CUG Lasttest 1-11
+2026-04-12 17:36:18,175 INFO o.a.j.t.JMeterThread: Thread is done: CUG Lasttest 1-12
+2026-04-12 17:36:18,175 INFO o.a.j.t.JMeterThread: Thread finished: CUG Lasttest 1-12
+2026-04-12 17:36:22,287 INFO o.a.j.t.JMeterThread: Thread is done: CUG Lasttest 1-13
+2026-04-12 17:36:22,287 INFO o.a.j.t.JMeterThread: Thread finished: CUG Lasttest 1-13
+2026-04-12 17:36:30,005 INFO o.a.j.r.Summariser: summary +   3093 in 00:00:30 =  103.1/s Avg:    85 Min:    51 Max:  2150 Err:     0 (0.00%) Active: 7 Started: 20 Finished: 13
+2026-04-12 17:36:30,005 INFO o.a.j.r.Summariser: summary =  44694 in 00:04:39 =  160.2/s Avg:    86 Min:    51 Max:  5458 Err:     0 (0.00%)
+2026-04-12 17:36:33,668 INFO o.a.j.t.JMeterThread: Thread is done: CUG Lasttest 1-14
+2026-04-12 17:36:33,668 INFO o.a.j.t.JMeterThread: Thread finished: CUG Lasttest 1-14
+2026-04-12 17:36:33,816 INFO o.a.j.t.JMeterThread: Thread is done: CUG Lasttest 1-15
+2026-04-12 17:36:33,816 INFO o.a.j.t.JMeterThread: Thread finished: CUG Lasttest 1-15
+2026-04-12 17:36:38,946 INFO o.a.j.t.JMeterThread: Thread is done: CUG Lasttest 1-16
+2026-04-12 17:36:38,946 INFO o.a.j.t.JMeterThread: Thread finished: CUG Lasttest 1-16
+2026-04-12 17:36:43,685 INFO o.a.j.t.JMeterThread: Thread is done: CUG Lasttest 1-17
+2026-04-12 17:36:43,685 INFO o.a.j.t.JMeterThread: Thread finished: CUG Lasttest 1-17
+2026-04-12 17:36:49,550 INFO o.a.j.t.JMeterThread: Thread is done: CUG Lasttest 1-18
+2026-04-12 17:36:49,550 INFO o.a.j.t.JMeterThread: Thread finished: CUG Lasttest 1-18
+2026-04-12 17:36:55,801 INFO o.a.j.t.JMeterThread: Thread is done: CUG Lasttest 1-19
+2026-04-12 17:36:55,802 INFO o.a.j.t.JMeterThread: Thread finished: CUG Lasttest 1-19
+2026-04-12 17:36:59,976 INFO o.a.j.t.JMeterThread: Thread is done: CUG Lasttest 1-20
+2026-04-12 17:36:59,976 INFO o.a.j.t.JMeterThread: Thread finished: CUG Lasttest 1-20
+2026-04-12 17:36:59,977 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2026-04-12 17:36:59,983 INFO o.a.j.r.Summariser: summary +   1366 in 00:00:30 =   45.6/s Avg:    77 Min:    54 Max:   324 Err:     0 (0.00%) Active: 0 Started: 20 Finished: 20
+2026-04-12 17:36:59,984 INFO o.a.j.r.Summariser: summary =  46060 in 00:05:09 =  149.1/s Avg:    86 Min:    51 Max:  5458 Err:     0 (0.00%)
+2026-04-12 17:36:59,984 INFO o.a.j.JMeter: Generating Dashboard
+2026-04-12 17:36:59,985 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2026-04-12 17:36:59,994 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2026-04-12 17:37:00,710 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2026-04-12 17:37:00,711 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2026-04-12 17:37:00,713 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2026-04-12 17:37:00,713 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2026-04-12 17:37:00,722 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2026-04-12 17:37:00,724 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2026-04-12 17:37:00,725 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2026-04-12 17:37:00,725 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2026-04-12 17:37:00,957 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2026-04-12 17:37:00,959 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2026-04-12 17:37:00,959 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2026-04-12 17:37:00,959 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2026-04-12 17:37:01,168 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2026-04-12 17:37:01,169 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 322420 samples
+2026-04-12 17:37:01,169 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
+2026-04-12 17:37:01,169 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2026-04-12 17:37:01,169 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2026-04-12 17:37:01,170 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2026-04-12 17:37:01,170 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2026-04-12 17:37:01,170 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2026-04-12 17:37:01,175 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2026-04-12 17:37:01,177 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2026-04-12 17:37:01,177 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2026-04-12 17:37:01,177 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2026-04-12 17:37:01,177 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 750900 samples
+2026-04-12 17:37:01,177 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 150180 samples
+2026-04-12 17:37:01,177 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 50060 samples
+2026-04-12 17:37:01,178 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 50060 samples produced in 1s 174 ms on channel 0
+2026-04-12 17:37:01,178 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
+2026-04-12 17:37:01,220 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary in context
+2026-04-12 17:37:01,221 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
+2026-04-12 17:37:01,221 INFO o.a.j.r.d.JsonExporter: Creating statistics for other transactions
+2026-04-12 17:37:01,221 INFO o.a.j.r.d.JsonExporter: Checking output folder
+2026-04-12 17:37:01,221 INFO o.a.j.r.d.JsonExporter: Writing statistics JSON to /Users/raro42/proton_drive/010_AMVARA_SHARED/60-CUG/cug-loadtest/jmeter-tests/logs_dashboard/001-cug_20260412-173150_Threads_20_Loops_100_RampUpTime_120/statistics.json
+2026-04-12 17:37:01,245 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2026-04-12 17:37:01,246 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: /Users/raro42/proton_drive/010_AMVARA_SHARED/60-CUG/cug-loadtest/jmeter-tests/logs_dashboard/001-cug_20260412-173150_Threads_20_Loops_100_RampUpTime_120
+2026-04-12 17:37:01,309 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: /Users/raro42/proton_drive/010_AMVARA_SHARED/60-CUG/cug-loadtest/jmeter-tests/logs_dashboard/001-cug_20260412-173150_Threads_20_Loops_100_RampUpTime_120, creating folder structure
+2026-04-12 17:37:01,310 INFO o.a.j.r.d.TemplateVisitor: Copying folder from '/opt/homebrew/Cellar/jmeter/5.6.3/libexec/bin/report-template' to '/Users/raro42/proton_drive/010_AMVARA_SHARED/60-CUG/cug-loadtest/jmeter-tests/logs_dashboard/001-cug_20260412-173150_Threads_20_Loops_100_RampUpTime_120', got message: /Users/raro42/proton_drive/010_AMVARA_SHARED/60-CUG/cug-loadtest/jmeter-tests/logs_dashboard/001-cug_20260412-173150_Threads_20_Loops_100_RampUpTime_120, found non empty folder with following content [/Users/raro42/proton_drive/010_AMVARA_SHARED/60-CUG/cug-loadtest/jmeter-tests/logs_dashboard/001-cug_20260412-173150_Threads_20_Loops_100_RampUpTime_120/statistics.json], will be ignored
+2026-04-12 17:37:01,444 INFO o.a.j.JMeter: Dashboard generated

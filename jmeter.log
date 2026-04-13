@@ -1,0 +1,77 @@
+2026-04-13 18:10:43,637 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2026-04-13 18:10:43,651 INFO o.a.j.JMeter: Loading user properties from: /opt/homebrew/Cellar/jmeter/5.6.3/libexec/bin/user.properties
+2026-04-13 18:10:43,651 INFO o.a.j.JMeter: Loading system properties from: /opt/homebrew/Cellar/jmeter/5.6.3/libexec/bin/system.properties
+2026-04-13 18:10:43,654 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2026-04-13 18:10:43,654 INFO o.a.j.JMeter: Version 5.6.3
+2026-04-13 18:10:43,654 INFO o.a.j.JMeter: java.version=21.0.7
+2026-04-13 18:10:43,654 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2026-04-13 18:10:43,654 INFO o.a.j.JMeter: os.name=Mac OS X
+2026-04-13 18:10:43,654 INFO o.a.j.JMeter: os.arch=aarch64
+2026-04-13 18:10:43,654 INFO o.a.j.JMeter: os.version=26.3.1
+2026-04-13 18:10:43,654 INFO o.a.j.JMeter: file.encoding=UTF-8
+2026-04-13 18:10:43,654 INFO o.a.j.JMeter: java.awt.headless=null
+2026-04-13 18:10:43,655 INFO o.a.j.JMeter: Max memory     =1073741824
+2026-04-13 18:10:43,655 INFO o.a.j.JMeter: Available Processors =16
+2026-04-13 18:10:43,659 INFO o.a.j.JMeter: Default Locale=English (EN)
+2026-04-13 18:10:43,659 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2026-04-13 18:10:43,660 INFO o.a.j.JMeter: JMeterHome=/opt/homebrew/Cellar/jmeter/5.6.3/libexec
+2026-04-13 18:10:43,660 INFO o.a.j.JMeter: user.dir  =/Users/raro42/projects/60-CUG/cug-cognos-loadtest
+2026-04-13 18:10:43,660 INFO o.a.j.JMeter: PWD       =/Users/raro42/projects/60-CUG/cug-cognos-loadtest
+2026-04-13 18:10:43,662 INFO o.a.j.JMeter: IP: 127.0.0.1 Name: tunix.local FullName: localhost
+2026-04-13 18:10:43,673 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2026-04-13 18:10:44,033 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2026-04-13 18:10:44,788 INFO o.a.j.r.ClassFinder: Will scan jar /opt/homebrew/Cellar/jmeter/5.6.3/libexec/lib/ext/jmeter-plugins-manager-1.9.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2026-04-13 18:10:44,820 INFO o.a.j.r.ClassFinder: Will scan jar /opt/homebrew/Cellar/jmeter/5.6.3/libexec/lib/ext/jmeter-plugins-webdriver-4.13.0.2.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2026-04-13 18:10:44,879 INFO o.a.j.r.ClassFinder: Will scan jar /opt/homebrew/Cellar/jmeter/5.6.3/libexec/lib/ext/jmeter-plugins-manager-1.9.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2026-04-13 18:10:44,880 INFO o.a.j.r.ClassFinder: Will scan jar /opt/homebrew/Cellar/jmeter/5.6.3/libexec/lib/ext/jmeter-plugins-webdriver-4.13.0.2.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2026-04-13 18:10:44,904 INFO o.j.r.JARSourceHTTP: Using proxy 127.0.0.1:8888
+2026-04-13 18:10:44,906 INFO o.j.r.JARSourceHTTP: Using proxy 127.0.0.1:8888
+2026-04-13 18:10:44,936 INFO o.j.r.JARSourceHTTP: Found cached repo
+2026-04-13 18:10:45,008 INFO o.j.r.JARSourceHTTP: Using proxy 127.0.0.1:8888
+2026-04-13 18:10:45,008 INFO o.j.r.PluginManager: Plugins Status: [jpgc-plugins-manager=1.9, jpgc-webdriver=4.13.0.2, jmeter-core=5.6.3, jmeter-ftp=5.6.3, jmeter-http=5.6.3, jmeter-jdbc=5.6.3, jmeter-jms=5.6.3, jmeter-junit=5.6.3, jmeter-java=5.6.3, jmeter-ldap=5.6.3, jmeter-mail=5.6.3, jmeter-mongodb=5.6.3, jmeter-native=5.6.3, jmeter-tcp=5.6.3, jmeter-components=5.6.3]
+2026-04-13 18:10:45,009 INFO o.j.r.PluginManagerMenuItem: Plugins Manager has upgrades: [jpgc-plugins-manager]
+2026-04-13 18:10:45,094 WARN o.j.r.h.StatsReporter: Failed to send repo stats
+java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592) ~[?:?]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.base/java.net.Socket.connect(Socket.java:751) ~[?:?]
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:326) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.jmeterplugins.repository.JARSourceHTTP.execute(JARSourceHTTP.java:499) ~[jmeter-plugins-manager-1.9.jar:?]
+	at org.jmeterplugins.repository.JARSourceHTTP.execute(JARSourceHTTP.java:494) ~[jmeter-plugins-manager-1.9.jar:?]
+	at org.jmeterplugins.repository.JARSourceHTTP.reportStats(JARSourceHTTP.java:451) ~[jmeter-plugins-manager-1.9.jar:?]
+	at org.jmeterplugins.repository.http.StatsReporter.run(StatsReporter.java:24) [jmeter-plugins-manager-1.9.jar:?]
+2026-04-13 18:15:31,738 INFO o.a.j.s.FileServer: Default base='/Users/raro42/projects/60-CUG/cug-cognos-loadtest'
+2026-04-13 18:15:31,740 INFO o.a.j.g.a.Load: Loading file: /Users/raro42/projects/60-CUG/cug-cognos-loadtest/jmeter-tests/test_plans/001-cug.jmx
+2026-04-13 18:15:31,740 INFO o.a.j.s.FileServer: Set new base='/Users/raro42/projects/60-CUG/cug-cognos-loadtest/jmeter-tests/test_plans'
+2026-04-13 18:15:31,813 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2026-04-13 18:15:31,816 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2026-04-13 18:15:31,817 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2026-04-13 18:15:31,818 INFO o.a.j.s.SaveService: Loading file: /Users/raro42/projects/60-CUG/cug-cognos-loadtest/jmeter-tests/test_plans/001-cug.jmx
+2026-04-13 18:15:31,909 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2026-04-13 18:15:31,915 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-04-13 18:15:31,916 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-04-13 18:15:31,916 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-04-13 18:15:31,916 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-04-13 18:15:31,916 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2026-04-13 18:15:31,916 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2026-04-13 18:15:32,030 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2026-04-13 18:15:32,030 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file /opt/homebrew/Cellar/jmeter/5.6.3/libexec/bin/proxyserver.jks
+2026-04-13 18:15:32,117 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2026-04-13 18:15:32,117 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2026-04-13 18:15:32,117 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2026-04-13 18:15:32,117 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2026-04-13 18:15:32,127 INFO o.a.j.r.ClassFinder: Will scan jar /opt/homebrew/Cellar/jmeter/5.6.3/libexec/lib/ext/jmeter-plugins-manager-1.9.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2026-04-13 18:15:32,128 INFO o.a.j.r.ClassFinder: Will scan jar /opt/homebrew/Cellar/jmeter/5.6.3/libexec/lib/ext/jmeter-plugins-webdriver-4.13.0.2.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2026-04-13 18:15:32,137 INFO o.a.j.r.ClassFinder: Will scan jar /opt/homebrew/Cellar/jmeter/5.6.3/libexec/lib/ext/jmeter-plugins-manager-1.9.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2026-04-13 18:15:32,138 INFO o.a.j.r.ClassFinder: Will scan jar /opt/homebrew/Cellar/jmeter/5.6.3/libexec/lib/ext/jmeter-plugins-webdriver-4.13.0.2.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2026-04-13 18:15:32,515 INFO o.a.j.s.FileServer: Set new base='/Users/raro42/projects/60-CUG/cug-cognos-loadtest/jmeter-tests/test_plans'

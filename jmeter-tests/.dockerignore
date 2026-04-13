@@ -1,0 +1,9 @@
+.git
+.cursor
+**/.DS_Store
+logs
+logs_dashboard
+**/logs
+*.tgz
+*.log
+*.jtl
