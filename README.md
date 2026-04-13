@@ -44,4 +44,4 @@ Typical flow from `jmeter-tests/test_plans/`:
 - Credentials and server URLs are configured inside the respective `.jmx` files; the run script supplies the password and thread/loop/ramp-up parameters at execution time.  
 - Load tests generate real traffic against the target Cognos deployment—use only on environments where that is approved.  
 
-Maintained in the context of AMVARA consulting work (IT/TSS, IT/GB).
+Maintained in the context of AMVARA consulting work ([www.amvara.de](https://www.amvara.de/)).
