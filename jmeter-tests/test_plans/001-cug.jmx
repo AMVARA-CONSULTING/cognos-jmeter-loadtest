@@ -23,7 +23,7 @@
         <boolProp name="CookieManager.controlledByThreadGroup">false</boolProp>
       </CookieManager>
       <hashTree/>
-      <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager">
+      <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
         <collectionProp name="HeaderManager.headers">
           <elementProp name="Sec-Fetch-Mode" elementType="Header">
             <stringProp name="Header.name">Sec-Fetch-Mode</stringProp>
@@ -96,7 +96,7 @@
         </collectionProp>
       </HeaderManager>
       <hashTree/>
-      <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables">
+      <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
         <collectionProp name="Arguments.arguments">
           <elementProp name="XSRF-TOKEN" elementType="Argument">
             <stringProp name="Argument.name">XSRF-TOKEN</stringProp>
@@ -263,7 +263,7 @@
           </elementProp>
         </HTTPSamplerProxy>
         <hashTree>
-          <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="XSRF-TOKEN">
+          <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="XSRF-TOKEN" enabled="true">
             <stringProp name="RegexExtractor.useHeaders">true</stringProp>
             <stringProp name="RegexExtractor.refname">XSRF-TOKEN</stringProp>
             <stringProp name="RegexExtractor.regex">XSRF-TOKEN=(.*);</stringProp>
@@ -273,7 +273,7 @@
             <stringProp name="RegexExtractor.match_number"></stringProp>
           </RegexExtractor>
           <hashTree/>
-          <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="X-CA-Transaction">
+          <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="X-CA-Transaction" enabled="true">
             <stringProp name="RegexExtractor.useHeaders">true</stringProp>
             <stringProp name="RegexExtractor.refname">X-CA-Transaction</stringProp>
             <stringProp name="RegexExtractor.regex">X-CA-Transaction: (.*)</stringProp>
@@ -283,7 +283,7 @@
             <stringProp name="RegexExtractor.match_number"></stringProp>
           </RegexExtractor>
           <hashTree/>
-          <JSR223PostProcessor guiclass="TestBeanGUI" testclass="JSR223PostProcessor" testname="Logging">
+          <JSR223PostProcessor guiclass="TestBeanGUI" testclass="JSR223PostProcessor" testname="Logging" enabled="true">
             <stringProp name="cacheKey">true</stringProp>
             <stringProp name="filename"></stringProp>
             <stringProp name="parameters"></stringProp>
@@ -305,7 +305,7 @@ log.info(&quot;-----------------------------------------------------------&quot;
           </JSR223PostProcessor>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="CUG-01">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="CUG-01" enabled="true">
           <stringProp name="HTTPSampler.domain">cognos.cug.app</stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
           <stringProp name="HTTPSampler.path">ibmcognos/bi/</stringProp>
@@ -318,7 +318,7 @@ log.info(&quot;-----------------------------------------------------------&quot;
           </elementProp>
         </HTTPSamplerProxy>
         <hashTree>
-          <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="XSRF-TOKEN">
+          <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="XSRF-TOKEN" enabled="true">
             <stringProp name="RegexExtractor.useHeaders">true</stringProp>
             <stringProp name="RegexExtractor.refname">XSRF-TOKEN</stringProp>
             <stringProp name="RegexExtractor.regex">XSRF-TOKEN=(.*);</stringProp>
@@ -328,7 +328,7 @@ log.info(&quot;-----------------------------------------------------------&quot;
             <stringProp name="RegexExtractor.match_number"></stringProp>
           </RegexExtractor>
           <hashTree/>
-          <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="X-CA-Transaction">
+          <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="X-CA-Transaction" enabled="true">
             <stringProp name="RegexExtractor.useHeaders">true</stringProp>
             <stringProp name="RegexExtractor.refname">X-CA-Transaction</stringProp>
             <stringProp name="RegexExtractor.regex">X-CA-Transaction: (.*)</stringProp>
@@ -382,7 +382,7 @@ log.info(&quot;-----------------------------------------------------------&quot;
           </elementProp>
         </HTTPSamplerProxy>
         <hashTree>
-          <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="X-CA-Transaction">
+          <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="X-CA-Transaction" enabled="true">
             <stringProp name="RegexExtractor.useHeaders">true</stringProp>
             <stringProp name="RegexExtractor.refname">X-CA-Transaction</stringProp>
             <stringProp name="RegexExtractor.regex">X-CA-Transaction: (.*)</stringProp>
@@ -428,7 +428,7 @@ log.info(&quot;-----------------------------------------------------------&quot;
                 </elementProp>
               </HTTPSamplerProxy>
               <hashTree>
-                <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="XSRF-TOKEN" enabled="true">
+                <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="XSRF-TOKEN">
                   <stringProp name="RegexExtractor.useHeaders">true</stringProp>
                   <stringProp name="RegexExtractor.refname">XSRF-TOKEN</stringProp>
                   <stringProp name="RegexExtractor.regex">XSRF-TOKEN=(.*);</stringProp>
@@ -607,7 +607,7 @@ log.info(&quot;-----------------------------------------------------------&quot;
                 </elementProp>
               </HTTPSamplerProxy>
               <hashTree/>
-              <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="001-requests-07">
+              <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="001-requests-07" enabled="true">
                 <stringProp name="HTTPSampler.domain">cognos.cug.app</stringProp>
                 <stringProp name="HTTPSampler.port">443</stringProp>
                 <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -897,13 +897,13 @@ log.info(&quot;-----------------------------------------------------------&quot;
               <hashTree/>
             </hashTree>
           </hashTree>
-          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="002-requests">
+          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="002-requests" enabled="true">
             <boolProp name="TransactionController.includeTimers">false</boolProp>
           </TransactionController>
           <hashTree>
-            <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="002-requests"/>
+            <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="002-requests" enabled="true"/>
             <hashTree>
-              <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="002-requests-00">
+              <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="002-requests-00" enabled="true">
                 <stringProp name="HTTPSampler.domain">cognos.cug.app</stringProp>
                 <stringProp name="HTTPSampler.port">443</stringProp>
                 <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -917,7 +917,7 @@ log.info(&quot;-----------------------------------------------------------&quot;
                 </elementProp>
               </HTTPSamplerProxy>
               <hashTree/>
-              <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="002-requests-01">
+              <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="002-requests-01" enabled="true">
                 <stringProp name="HTTPSampler.domain">cognos.cug.app</stringProp>
                 <stringProp name="HTTPSampler.port">443</stringProp>
                 <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -1228,7 +1228,7 @@ log.info(&quot;-----------------------------------------------------------&quot;
                 </elementProp>
               </HTTPSamplerProxy>
               <hashTree/>
-              <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="002-requests-16">
+              <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="002-requests-16" enabled="true">
                 <stringProp name="HTTPSampler.domain">cognos.cug.app</stringProp>
                 <stringProp name="HTTPSampler.protocol">https</stringProp>
                 <stringProp name="HTTPSampler.path">/ibmcognos/bi/v1/datasets/i1F32EC23E2264CAA8B1B234513D22C99/data?type=module&amp;refreshmd=false&amp;qfb=none&amp;moduleUrl=&amp;querySpec=%7B%22version%22%3A%222%22%2C%22v5QuerySet%22%3A%7B%22attr%3AexpressionLocale%22%3A%22en-us%22%2C%22queries%22%3A%7B%22query%22%3A%5B%7B%22attr%3Aname%22%3A%22Query0%22%2C%22selection%22%3A%7B%22dataItem%22%3A%5B%7B%22attr%3Aname%22%3A%22id723161270%22%2C%22expression%22%3A%22cognos_voting2.Anzahl_Stimmen%22%2C%22attr%3Aaggregate%22%3A%22total%22%7D%2C%7B%22attr%3Aname%22%3A%22id_900064425%22%2C%22expression%22%3A%22cognos_voting2.C_Featurewunsch%22%2C%22attr%3Aaggregate%22%3A%22none%22%7D%2C%7B%22attr%3Aname%22%3A%22id_1673482935%22%2C%22expression%22%3A%22cognos_voting2.C_Featurewunsch_1%22%2C%22attr%3Aaggregate%22%3A%22none%22%7D%5D%7D%2C%22source%22%3A%7B%22model%22%3A%7B%7D%7D%2C%22queryHints%22%3A%5B%7B%22dashboard%22%3A%7B%22attr%3Avalue%22%3A%22true%22%7D%7D%2C%7B%22executionOptimization%22%3A%7B%22attr%3Avalue%22%3A%22ALLROWS%22%7D%7D%2C%7B%22treatEmptyDMRMUN%22%3A%7B%22attr%3Avalue%22%3A%22empty_or_null%22%7D%7D%2C%7B%22ignoreFiltersNotApplicable%22%3A%7B%22attr%3Avalue%22%3A%22true%22%7D%7D%2C%7B%22suppress%22%3A%7B%22attr%3Avalue%22%3A%22none%22%7D%7D%5D%7D%5D%7D%2C%22queryResultDefinitions%22%3A%7B%22queryResultDefinition%22%3A%5B%7B%22attr%3Aname%22%3A%22Query0_ResultDefinition1%22%2C%22attr%3ArefQuery%22%3A%22Query0%22%2C%22edges%22%3A%7B%22edge%22%3A%5B%7B%22attr%3Aname%22%3A%222%22%2C%22attr%3AedgeID%22%3A%220%22%2C%22edgeGroups%22%3A%7B%22edgeGroup%22%3A%5B%7B%22valueSets%22%3A%7B%22valueSet%22%3A%5B%7B%22attr%3Aname%22%3A%223%22%2C%22propertyExpressions%22%3A%7B%22propertyExpression%22%3A%5B%5D%7D%2C%22groupBody%22%3A%7B%22attr%3Aname%22%3A%224%22%2C%22dataItemRef%22%3A%5B%7B%22attr%3ArefDataItem%22%3A%22id723161270%22%7D%2C%7B%22attr%3ArefDataItem%22%3A%22id_900064425%22%7D%2C%7B%22attr%3ArefDataItem%22%3A%22id_1673482935%22%7D%5D%2C%22propertyExpressions%22%3A%7B%22propertyExpression%22%3A%5B%22RoleValue(%27_memberUniqueName%27)%22%2C%22RoleValue(%27_memberCaption%27)%22%2C%22RoleValue(%27_levelNumber%27)%22%2C%22RoleValue(%27_levelUniqueName%27)%22%2C%22RoleValue(%27_parentUniqueName%27)%22%2C%22RoleValue(%27_hierarchyUniqueName%27)%22%5D%7D%7D%7D%5D%7D%7D%5D%7D%2C%22attr%3ArowLimit%22%3A300000%2C%22edgeSuppression%22%3A%7B%22attr%3AdivByZero%22%3A%22false%22%2C%22attr%3Anulls%22%3A%22false%22%2C%22attr%3Aoverflow%22%3A%22false%22%2C%22attr%3Azero%22%3A%22false%22%7D%7D%5D%7D%7D%5D%7D%7D%2C%22queryHints%22%3A%7B%22metadataSubsetIDs%22%3A%5B%22cognos_voting2.C_Featurewunsch%22%2C%22cognos_voting2.Anzahl_Stimmen%22%2C%22cognos_voting2.C_Featurewunsch_1%22%2C%22cognos_voting2.Featurewunsch%22%5D%7D%7D</stringProp>
@@ -1245,29 +1245,6 @@ log.info(&quot;-----------------------------------------------------------&quot;
           </hashTree>
         </hashTree>
       </hashTree>
-      <ProxyControl guiclass="ProxyControlGui" testclass="ProxyControl" testname="HTTP(S) Test Script Recorder">
-        <stringProp name="ProxyControlGui.port">8888</stringProp>
-        <collectionProp name="ProxyControlGui.exclude_list"/>
-        <collectionProp name="ProxyControlGui.include_list"/>
-        <boolProp name="ProxyControlGui.capture_http_headers">true</boolProp>
-        <intProp name="ProxyControlGui.grouping_mode">1</intProp>
-        <boolProp name="ProxyControlGui.add_assertion">false</boolProp>
-        <stringProp name="ProxyControlGui.sampler_type_name"></stringProp>
-        <boolProp name="ProxyControlGui.sampler_redirect_automatically">false</boolProp>
-        <boolProp name="ProxyControlGui.sampler_follow_redirects">true</boolProp>
-        <boolProp name="ProxyControlGui.use_keepalive">true</boolProp>
-        <boolProp name="ProxyControlGui.detect_graphql_request">true</boolProp>
-        <boolProp name="ProxyControlGui.sampler_download_images">false</boolProp>
-        <intProp name="ProxyControlGui.proxy_http_sampler_naming_mode">0</intProp>
-        <stringProp name="ProxyControlGui.default_encoding"></stringProp>
-        <stringProp name="ProxyControlGui.proxy_prefix_http_sampler_name">cug-login</stringProp>
-        <stringProp name="ProxyControlGui.proxy_pause_http_sampler"></stringProp>
-        <boolProp name="ProxyControlGui.notify_child_sl_filtered">false</boolProp>
-        <boolProp name="ProxyControlGui.regex_match">true</boolProp>
-        <stringProp name="ProxyControlGui.content_type_include"></stringProp>
-        <stringProp name="ProxyControlGui.content_type_exclude"></stringProp>
-      </ProxyControl>
-      <hashTree/>
       <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Thread Group" enabled="false">
         <intProp name="ThreadGroup.num_threads">1</intProp>
         <intProp name="ThreadGroup.ramp_time">1</intProp>
@@ -1529,7 +1506,7 @@ log.info(&quot;-----------------------------------------------------------&quot;
           </hashTree>
           <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="-------------------" enabled="true"/>
           <hashTree/>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="cug-login/ibmcognos/bi/-6">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="cug-login/ibmcognos/bi/-6" enabled="true">
             <stringProp name="HTTPSampler.domain">${servername}</stringProp>
             <stringProp name="HTTPSampler.port">443</stringProp>
             <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
@@ -4233,7 +4210,7 @@ log.info(&quot;-----------------------------------------------------------&quot;
             </HeaderManager>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="cug-login/ibmcognos/bi/v1/login-42">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="cug-login/ibmcognos/bi/v1/login-42" enabled="true">
             <stringProp name="HTTPSampler.domain">${servername}</stringProp>
             <stringProp name="HTTPSampler.port">443</stringProp>
             <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
@@ -4614,7 +4591,7 @@ log.info(&quot;-----------------------------------------------------------&quot;
             </HeaderManager>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="cug-login/ibmcognos/bi/v1/login-47">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="cug-login/ibmcognos/bi/v1/login-47" enabled="true">
             <stringProp name="HTTPSampler.domain">${servername}</stringProp>
             <stringProp name="HTTPSampler.port">443</stringProp>
             <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
@@ -4781,7 +4758,7 @@ log.info(&quot;-----------------------------------------------------------&quot;
             </HeaderManager>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="cug-login/ibmcognos/bi/v1/plugins/themes/current/css/palette.css-49">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="cug-login/ibmcognos/bi/v1/plugins/themes/current/css/palette.css-49" enabled="true">
             <stringProp name="HTTPSampler.domain">${servername}</stringProp>
             <stringProp name="HTTPSampler.port">443</stringProp>
             <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
@@ -5078,7 +5055,7 @@ log.info(&quot;-----------------------------------------------------------&quot;
             </HeaderManager>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="cug-login/ibmcognos/bi/images/login.png-51" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="cug-login/ibmcognos/bi/images/login.png-51">
             <stringProp name="HTTPSampler.domain">${servername}</stringProp>
             <stringProp name="HTTPSampler.port">443</stringProp>
             <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
@@ -10947,7 +10924,7 @@ log.info(&quot;-----------------------------------------------------------&quot;
             </HeaderManager>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="cug-login/ibmcognos/bi/v1/login-131">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="cug-login/ibmcognos/bi/v1/login-131" enabled="true">
             <stringProp name="HTTPSampler.domain">${servername}</stringProp>
             <stringProp name="HTTPSampler.port">443</stringProp>
             <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
@@ -11038,7 +11015,7 @@ log.info(&quot;-----------------------------------------------------------&quot;
             </HeaderManager>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="cug-login/ibmcognos/bi/-132">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="cug-login/ibmcognos/bi/-132" enabled="true">
             <stringProp name="HTTPSampler.domain">${servername}</stringProp>
             <stringProp name="HTTPSampler.port">443</stringProp>
             <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
@@ -12962,7 +12939,7 @@ log.info(&quot;-----------------------------------------------------------&quot;
             </HeaderManager>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="cug-login/ibmcognos/bi/v1/whatsnew/-147">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="cug-login/ibmcognos/bi/v1/whatsnew/-147" enabled="true">
             <stringProp name="HTTPSampler.domain">${servername}</stringProp>
             <stringProp name="HTTPSampler.port">443</stringProp>
             <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
@@ -14268,7 +14245,7 @@ log.info(&quot;-----------------------------------------------------------&quot;
             </HeaderManager>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="cug-login/ibmcognos/bi/v1/users/_tilde_/user_profile_settings-173">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="cug-login/ibmcognos/bi/v1/users/_tilde_/user_profile_settings-173" enabled="true">
             <stringProp name="HTTPSampler.domain">${servername}</stringProp>
             <stringProp name="HTTPSampler.port">443</stringProp>
             <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
@@ -14360,6 +14337,29 @@ log.info(&quot;-----------------------------------------------------------&quot;
           </hashTree>
         </hashTree>
       </hashTree>
+      <ProxyControl guiclass="ProxyControlGui" testclass="ProxyControl" testname="HTTP(S) Test Script Recorder">
+        <stringProp name="ProxyControlGui.port">8888</stringProp>
+        <collectionProp name="ProxyControlGui.exclude_list"/>
+        <collectionProp name="ProxyControlGui.include_list"/>
+        <boolProp name="ProxyControlGui.capture_http_headers">true</boolProp>
+        <intProp name="ProxyControlGui.grouping_mode">1</intProp>
+        <boolProp name="ProxyControlGui.add_assertion">false</boolProp>
+        <stringProp name="ProxyControlGui.sampler_type_name"></stringProp>
+        <boolProp name="ProxyControlGui.sampler_redirect_automatically">false</boolProp>
+        <boolProp name="ProxyControlGui.sampler_follow_redirects">true</boolProp>
+        <boolProp name="ProxyControlGui.use_keepalive">true</boolProp>
+        <boolProp name="ProxyControlGui.detect_graphql_request">true</boolProp>
+        <boolProp name="ProxyControlGui.sampler_download_images">false</boolProp>
+        <intProp name="ProxyControlGui.proxy_http_sampler_naming_mode">0</intProp>
+        <stringProp name="ProxyControlGui.default_encoding"></stringProp>
+        <stringProp name="ProxyControlGui.proxy_prefix_http_sampler_name">cug-login</stringProp>
+        <stringProp name="ProxyControlGui.proxy_pause_http_sampler"></stringProp>
+        <boolProp name="ProxyControlGui.notify_child_sl_filtered">false</boolProp>
+        <boolProp name="ProxyControlGui.regex_match">true</boolProp>
+        <stringProp name="ProxyControlGui.content_type_include"></stringProp>
+        <stringProp name="ProxyControlGui.content_type_exclude"></stringProp>
+      </ProxyControl>
+      <hashTree/>
     </hashTree>
   </hashTree>
 </jmeterTestPlan>
